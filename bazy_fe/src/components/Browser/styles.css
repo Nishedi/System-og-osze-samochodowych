@@ -1,0 +1,69 @@
+
+.centered {
+    /* min-height: 100vh; */
+   display: flex;
+   /* align-items: center;  */
+ }
+body{
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+img{
+  padding: 10px;
+  opacity: 1;
+  max-width: 275px;
+}
+
+.op{
+  opacity: 1;
+}
+
+.h1{
+  height: auto;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.margins{
+  margin: 20px;
+}
+
+.topmargin{
+  margin-top: 20px;
+}
+
+.test{
+  outline: solid 1px red;
+}
+
+.left{
+  display: flex;
+  justify-content: flex-start; 
+}
+.selectors {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.select-wrapper {
+  text-align: left;
+}
+
+/* Dodaj odpowiednie style dla div'a, który zawiera oba komponenty */
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Dodaj odpowiednie style dla pierwszego div'a z wyborem napędu */
+.container .drive-selection {
+  margin-right: 20px; /* Dodaj margines między komponentami */
+}
+
+/* Dodaj odpowiednie style dla drugiego div'a z polami wejściowymi */
+.container .engine-input {
+  margin-left: 20px; /* Dodaj margines między komponentami */
+}

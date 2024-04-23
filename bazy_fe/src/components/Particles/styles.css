@@ -1,0 +1,6 @@
+body{
+    z-index: -1; /* Opcjonalny z-index na wypadek nakładania się */
+}
+.body{
+    z-index: -1; /* Opcjonalny z-index na wypadek nakładania się */
+}

@@ -1,0 +1,32 @@
+.signOut {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 5px 20px;
+}
+.Navbar{
+    /* border: 2px solid rgb(128, 128, 128); */
+    padding: 20px;    
+  }
+
+.nav-container {
+    position: fixed; /* Ustawienie pozycji na stałe */
+    top: 0; /* Umieszczenie na górze */
+    left: 0; /* Pozycja od lewej */
+    width: 100%; /* Szerokość 100% */
+    /*background: linear-gradient(to right, #7debff, #81fcaa);*/
+    /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); Opcjonalny cień dla efektu */
+    padding: 10px; /* Opcjonalny padding */
+    z-index: 1000; /* Opcjonalny z-index na wypadek nakładania się */
+}
+
+/* Inne style, które modyfikują wygląd nawigacji */
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    height: 1000px;
+}
